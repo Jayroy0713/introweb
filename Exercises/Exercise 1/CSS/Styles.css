@@ -1,4 +1,38 @@
-p{
-    color:blue;
+
+body {
+    color: darkslateblue;
+    text-align: center;
+    font-family:georgia, serif;
+    background: center no-repeat url("../Images/fond.jpg");
 
 }
+h1,h2{
+    color:navy;
+    text-align: center;
+}
+h3,h4{
+    color:mediumblue;
+    font-size: x-large;
+    text-align: center;
+}
+ul {
+
+    font-size: larger;
+    text-align: justify;
+}
+
+ol{
+    font-size: larger;
+    text-align: center;
+
+}
+
+.genre{
+    color: purple;
+}
+.met{
+    color: mediumblue;
+    font-size: large;
+}
+#metal{
+    font-size: large;
