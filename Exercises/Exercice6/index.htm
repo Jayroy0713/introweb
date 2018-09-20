@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>FORMULAIRE</title>
+	<meta  charset="UTF-8">
+	<meta name="title" content="Titre de la page">
+	<meta name="description" content="description de la page">
+	<meta name="author" content="prenon NOM">
+	<meta name="keywords" content="mots-clé1, mots-clé2, ...">
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet " href ="CSS/Style.css"/>
+</head>
+<body>
+	<div class="form-style">
+		<div class="Entete">Entrez les informations du membre</div>
+		<!-- formulaire ici -->
+		<form action="" method="post">
+			<fieldset>
+				<div>
+					<label for="nom">Nom: </label>
+					<input type ="text" name="nom" required>
+					<input type="submit">
+				</div>
+				<div>
+					<label for="prenom">Prenom: </label>
+					<input type ="text" name="prenom" required>
+					<input type="submit">
+				</div>
+				<div>
+					<label for="adresse">Adresse : </label>
+					<input id="adresse" name="txtAdresse" size="20"
+						   type="text" placeholder="XXXX rue" >
+				</div>
+				<div>
+					<label for="ville">Ville: </label>
+					<input type ="text" name="ville">
+				</div>
+				<div>
+					<label for="tel">Téléphone: </label>
+					<input id="tel" name="txtTel" size="20"
+						   type="text" placeholder="999-999-9999" required >
+					<input type="submit">
+				</div>
+				<div>
+					<label for="datedeb">Date d'inscription: </label>
+					<input id="datedeb" name="txtDatedeb" size="20"
+						   type="text" placeholder=" jj/ms/aaaa" required>
+					<input type="submit">
+				</div>
+				<div>
+					<label for="datefin">Adresse : </label>
+					<input id="datefin" name="txtDatefin" size="20"
+						   type="text" placeholder="  aaaa - mm - jj" >
+				</div>
+				<div>
+					<label for="sexe">Sexe :</label>
+					<input id="m" type="radio" name="radgenre"
+						  value="masculin">
+					<label id="m" for="m">Masculin</label>
+					<input id="f" type="radio" name="radgenre"
+						   value="masculin">
+					<label id="f" for="f">Féminin</label>
+				</div>
+				<div>
+					<label for="Choix">Choix :</label>
+					<input type="text" list="mpaiement" name="mpaiement">
+					<datalist id="mpaiement">
+						<option value="MasterCard">Master Card</option>
+						<option value="Visa">Visa</option>
+						<option value="BitCoin">Bitcoin</option>
+						<option value="AmericanExpress">American Express</option>
+					</datalist>
+				</div>
+				<div>
+					<label for="credit">Carte de crédit : </label>
+					<input id="credit" name="txtCredit" size="20"
+						   type="text" placeholder="  **** **** **** ****" required>
+					<input type="submit">
+				</div>
+				<div>
+					<div>
+						<label for="MDP">Mot de passe : </label>
+						<input id="MDP" name="txtMDP" required>
+						<input type="submit">
+					</div>
+				</div>
+				<div>
+					<label for="courriel">Courriel : </label>
+					<input id="courriel" name="txtCourriel" size="20"
+						   type="text" placeholder=" aaaaaa@aaaa.aaa" >
+				</div>
+				<div id="bouttons">
+					<input type="submit" value="Envoyer">
+					<input type="reset" value="Réinitialiser">
+
+		</form>
+	</div>
+</body>
+</html>
