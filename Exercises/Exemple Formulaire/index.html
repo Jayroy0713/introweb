@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <title>Mon premier formulaire</title>
+      <meta  charset="UTF-8">
+      <meta name="title" content="Titre de la page">
+      <meta name="description" content="Exemple d'un formulaire">
+      <meta name="author" content="lucie FORTIN">
+      <meta name="keywords" content="forme, formulaire">
+      <meta name="robots" content="index,follow"> 
+      <link rel="stylesheet" type="text/css" href="css/monstyle.css"/>
+    </head>
+ <body>
+<form id="inscription" method ="post" action ="fait quelque chose.php">
+<h1>Formulaire d'inscription</h1>
+  <fieldset> 
+    <legend>Informations personnelles</legend> 
+    <div> 
+        <label for="nom">Nom
+        <input id="given-name" name="given-name" type="text" placeholder="Prénom" required autofocus> 
+		</label>
+    </div>
+    <div> 
+        <label for="prenom">Prénom
+        <input id="family-name" name="family-name" size="20" type="text" placeholder="Nom" required autofocus> 
+		</label>
+    </div>
+    <div> 
+    	<label for="dateNaissance">Date de naissance
+        <input id="dob" name="dob" type="date" required>
+		</label>
+    </div> 
+    <div> 
+        <label for="email">Email 
+        <input id="email" name="email" type="email" placeholder="example@domain.com" required>
+		</label> 
+    </div> 
+    <div> 
+        <label for="url">URL 
+        <input id="url" name="url" type="url" placeholder="http://mysite.com">
+		</label> 
+    </div>    
+    <div> 
+      <label for="telephone">Téléphone
+        <input id="phone" name="phone" type="tel" placeholder="Eg. 001 418-555-5555" required>
+		  </label> 
+    </div> 
+	<div>
+		<label for="pointure">Pointure
+	   	<input id="shoes" name="shoes" type="number" min="5" max="18" step="0.5" value="9">
+		</label>
+	</div>
+	<div>
+		<label for="adaptation" >Adaptation (1 Basse - 100 Haute)
+  		<input id="skill" name="skill" type="range" min="1" max="100" value="0">
+		</label>
+	</div>
+  </fieldset>
+  <fieldset> 
+    <legend>Adresse de livraison</legend> 
+    <div> 
+        <label for="adresse">Adresse 
+        <textarea id="address" name="address" rows=5 required></textarea>
+		</label> 
+    </div> 
+    <div> 
+        <label for="codepostal">Code postal
+          <input id="postCode" name="postCode" type="text" required>
+		  </label> 
+    </div> 
+    <div> 
+        <label for="pays">Pays 
+          <input id="country" name="country" list="country-names" type="text" required> 
+          <datalist id="country-names"> 
+        	 <option label="England" value="England"></option> 
+        	 <option label="Canada" value="Canada"></option> 
+        	 <option label="Ireland" value="Ireland"></option> 
+        	 <option label="Scotland" value="Scotland"></option> 
+        	 <option label="US" value="US"></option> 
+          </datalist>
+		  </label> 
+    </div> 
+  </fieldset> 
+  <fieldset> 
+    <legend>Détails carte</legend> 
+    <fieldset> 
+      <legend>Type carte</legend> 
+      <div class="card-type"> 
+          <input id="visa" name="cardtype" type="radio"> 
+          <label for="visa">VISA</label> 
+          <input id="mastercard" name="cardtype" type="radio">
+          <label for="mastercard">Mastercard</label> 
+          <input id="amex" name="cardtype" type="radio"> 
+          <label for="amex">AMEX</label>
+      </div> 
+    </fieldset>
+    <div> 
+        <label for="nomCarte">Nom
+          <input id="cardName" name="cardName" type="text" placeholder="Le nom comme il apparaît sur la carte" required>
+		  </label>  
+    </div>
+    <div> 
+      <label for="numero">Numéro 
+        <input id="cardNo" name="cardNo" type="number" required title="Seize chiffres."> 
+		  </label>
+    </div>
+    <div> 
+      <label for="code">Code de sécurité
+        <input id="security" name="security" type="number"  required title="Les trois derniers chiffres.">
+		  </label> 
+    </div>
+    <div> 
+      <label for="date">Date d'expiration 
+          <input id="expiry" name="expiry" type="month">
+		  </label>
+    </div>
+  </fieldset> 
+  <fieldset> 
+  	<div> 
+	    <button type=submit>Envoyer</button> 
+    </div> 
+  </fieldset> 
+</form>        
+</body>
+</html>

@@ -9,11 +9,21 @@ h1{
 }
 .box {
 
-	border: 2px solid darkblue;
-	padding-left: 10px;
+    border: 2px solid darkblue;
+    padding-left: 10px;
+    float: left;
+    width: 20%;
+    height: 50%;
 }
 .box2 {
-  border: 2px solid red;
+    border: 2px solid red;
+    width: 78%;
+    float: right;
+.div {
+    clear
 }
 
+}
+p{
 
+}
