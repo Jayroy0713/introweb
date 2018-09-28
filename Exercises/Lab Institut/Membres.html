@@ -34,9 +34,9 @@
 		<!--fin aside-->
 		<!--section-->
 		<section>
-			<div id="nav_acc">
-				<ul><li><a href="#" target="_blank">| Accueil</a></li><li><a href="#" target="_blank">| Formation</a></li><li><a href="#" target="_blank">| Membres</a></li></ul>
-			</div>
+			<nav id="nav_acc">
+				<ul><li><a href="#" target="_blank">Accueil</a></li><li><a href="#" target="_blank">| Formation</a></li><li><a href="#" target="_blank">| Membres</a></li><li><a href="#" target="_blank">| Services</a></li></ul>
+			</nav>
 			<h1> Entrez les informations du membre </h1>
 			<!-- formulaire ici -->
 			<form action="" method="post">
@@ -58,11 +58,10 @@
 						<label for="tel">Téléphone  <span style="color: red">*</span> </label>
 						<input id="tel" name="txtTel" size="20"
 							   type="text" placeholder="(418)-999-9999"  required >
-						<div>
-							<label for="com">Commentaires</label>
+					</div>
+				    <div>
+						<label id="comv" for="com">Commentaires</label>
 								<textarea id="com" name="com" rows=6 placeholder="Écrivez vos commentaires" ></textarea>
-
-						</div>
 					</div>
 					<div>
 						<label for="categorie">Catégorie </label>
