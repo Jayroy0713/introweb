@@ -26,9 +26,12 @@
 
 	<!-- Case à cocher -->
 	<p class="Align">
-	Chien<input type="radio" name="radChoix" checked=true id="radChien">
-	Chat<input type="radio" name="radChoix" id="radChat">
+	Chien<input type="radio" name="radChoix" checked=true id="radChien" onclick="radChien_onclick()">
+	Chat<input type="radio" name="radChoix" id="radChat" onclick="radChat_onclick()">
 	</p>
+    <p class="Align" id="lblimg" name="lblimg">L'image s'affiche ici </p>
+
+	<p class="Align"> Entrez le nombre d'heures que vous avez fait : <input class="champ" id="txtNbrHrs" name="txtNbrHrs" value="">  </p>
 
 	<!-- label affichage -->
 	<p class="Align" id="lblMessage" name="lblMessage">le résultat s'affiche ici </p>
