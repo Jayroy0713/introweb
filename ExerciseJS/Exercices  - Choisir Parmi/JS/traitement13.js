@@ -1,7 +1,7 @@
 function btnCalculer_onclick()
 {
-    var numsem,jour
-    jour = parseInt(document.getElementById("txtNumSem"));
+    var numsem,jour;
+    jour = parseInt(document.getElementById("txtNumSem").value);
  	switch (jour)
     {
         case 1 :

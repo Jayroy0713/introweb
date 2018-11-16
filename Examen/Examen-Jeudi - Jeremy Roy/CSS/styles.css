@@ -1,0 +1,179 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font:0.9em 'Marvel',sans-serif;
+
+}
+
+div#main{
+	width: 55%;
+	margin:auto;
+}
+
+
+/*header*/
+header{
+	width: 118%;
+	height:170px; 
+	background-image:url("../images/biscuit.png"); 
+	text-align:center;
+}
+#logo{
+	width:169px;
+	height:170px;
+}
+
+/*navigation du menu principal*/
+nav{
+	width: 118%;
+	background-color:#f1664c;
+}
+ul{
+	list-style-type:none;
+ 	text-align:center;
+ 	font:bold 1.5em 'Amatic SC', cursive;
+}
+a{
+	color:white;
+}
+
+/*container*/
+div#container,div#container2{
+	width: 118%;
+
+}
+div#container{
+	text-align: center;
+
+
+} 
+
+div#container2{
+	text-align: left;
+
+
+} 
+
+section{
+	background-color:white; 
+	border:1px solid #f2df8e;
+
+
+
+
+}
+
+p{
+	text-decoration:none;
+	font-weight: bold;
+	color: gray;
+
+
+}
+
+
+h1{
+	font:bold 2em 'Amatic SC', 	cursive;
+	text-align:center;
+	margin:10px;
+}
+h1 a{
+	color:black;
+	text-decoration: none;
+}
+
+
+/*footer*/
+footer{
+	text-transform:uppercase;
+	width: 118%;
+	text-align: center ;
+}
+.titres:hover
+{
+	color: red;
+}
+#sect1
+{
+	display: inline-block;
+	padding: 4px;
+	width: 49%;
+}
+#sect2
+{
+	display: inline-block;
+	width: 49%;
+	padding: 4px;
+
+
+
+}
+span
+{
+	color: red;
+}
+table, th, td {
+	border-color: #f1664c;
+
+
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+
+}
+
+td, th {
+	border: 2px solid #f1664c;
+	text-align: left;
+	padding: 8px;
+}
+ th{
+	 background-color: #f1664c;
+	 color: white;padding: 20px;
+	 
+ }
+
+table#t01 tr:nth-child(even) {
+	background-color: #f2df8e ;
+}
+table#t01 tr:nth-child(odd) {
+	background-color: white;
+}
+#tables
+{
+	display: inline-block;
+width: 50%;
+	float: right;
+	padding: 10px;
+	padding-bottom: 105px;
+}
+#formulaire
+{
+	display: inline-block;
+width: 48%;
+	padding-bottom: 100px;
+
+
+}
+label
+{
+text-align: center;
+	padding-right: 100px;
+	vertical-align: 8px;
+	display: inline-block;
+	text-align: left;
+
+}
+
+#Boutons
+{
+
+}
+#piedPage
+{
+	color:black;
+}
