@@ -47,7 +47,13 @@ function valideChampsOblig()
 function validExist(nomId)
 {
     var valide;
-    if(document.getElementById(nomId).value ==="")
+    tabNomId=newArray(nbr1,nbr2,sym);
+
+    for (i = 0; i < tabNomId; i++)
+    {
+
+    }
+   /* if(document.getElementById(nomId).value ==="")
     {
         valide = false;
         document.getElementById(nomId).style.backgroundColor = "red";
@@ -57,7 +63,7 @@ function validExist(nomId)
         valide = true;
         document.getElementById(nomId).style.backgroundColor = "white";
     }
-    return valide;
+    return valide;*/
 }
 
 
