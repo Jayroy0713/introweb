@@ -76,7 +76,7 @@ function afficher()
     document.getElementById("lblMessage").innerHTML = "Le prix sera de "+tarif +" pour "+nbrjours +" jours.";
 }
 
-}
+
 /*Fonction*/
 function radChat_onclick()
 {
