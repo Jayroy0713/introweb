@@ -8,15 +8,22 @@ function frmMembre_onclick()
 }
 function traiterInfos()
 {
-   var nom,prenom,adresse,ville, codePostal,telephone,codePerm,age;
-    nom = (document.getElementById("txtNom").value);
-    prenom = (document.getElementById("txtPrenom").value);
-    adresse = (document.getElementById("txtAdresse").value);
-    ville = (document.getElementById("txtVille").value);
-    codePostal = (document.getElementById("txtCodePostal").value);
-    telephone = (document.getElementById("txtTel").value);
-    codePerm = (document.getElementById("txtCodePerm").value);
+   var nom,prenom,age;
+
     age = (document.getElementById("type").value);
+    if (age = "adulte")
+    {
+        prix = 90;
+    }
+    else if (age = "étudiant")
+    {
+        prix = 60;
+    }
+    else if (age = "retraité")
+    {
+        prix = 80;
+    }
+    return prix
 }
 function valideChampsOblig()
 {
